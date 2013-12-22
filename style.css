@@ -1,0 +1,445 @@
+	a:active { color: #FF0066; }
+	a:visited { color: #3399FF; }
+	a:link { color: #3399FF; }
+	
+a {
+    text-decoration:none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #d5c887 url('../images/bg.png') repeat-x center top;
+    color: #5c0f0f;
+
+
+
+}
+
+img {
+	border: none;
+}
+
+#top-bar {
+    background: #000;
+    position:fixed;
+    width: 100%;
+    z-index: 500;
+}
+
+#header {
+    font-weight: bold;
+    background-color: #000;
+    display: block;
+    width: 1280px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+#logo {
+    margin: 5px 0 0 20px;
+    position: absolute;
+}
+
+#nav-list {
+    margin: 0 0 20px 335px;
+    list-style-type:none;
+    display: inline-block;
+}
+
+#nav-list a {
+    color: #929292;
+    padding: 10px 0;
+}
+
+#nav-list a:hover {
+    color: #FFF;
+}
+
+#nav-list a.active {
+    color: #FFF;
+}
+
+.nav-item {
+    float: left;
+    margin-left: 25px;
+}
+
+#twitter {
+    display: inline;
+    position: relative; 
+    left: 156px;
+    top: 17px
+}
+
+#main-content {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.content {
+    margin-left: 135px;
+    width: 450px;
+    padding: 143px 0 500px 0;
+}
+
+.content-title {
+    font-weight: bold;
+    font-size: 30pt;
+    margin-bottom: 10px;
+}
+
+.content-bubble-title {
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.content-text-highlight {
+    display: inline;
+    background:#000;
+    color: #FFF;
+    padding: 2px;
+    font-size: 15pt;
+    line-height: 24pt;
+    white-space: pre-wrap;
+}
+
+.indent-content-text {
+	margin-left: 335px;
+	color: #FEFCFF;
+   text-align:center;
+
+	
+}
+
+.content-text-highlight a {
+    color: #28ace4;
+}
+
+.content-text{
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 13pt;
+}
+
+.star {
+    position: fixed;
+    top: 245px;
+    left: 48%;
+    z-index: 1;
+}
+
+
+
+.clothing {
+	z-index: 2;
+	display: none;
+}
+
+.speech {
+    position: relative;
+    color: #FFF;
+}
+
+.cloudtext {
+    position: relative;
+    font-size: 15pt;
+}
+
+#speech1 {
+    left: 645px;
+    top: -205px;
+}
+
+#speech1 p {
+    position: relative;
+    width: 140px;
+    top: -222px;
+    left: 32px;
+    text-align:center
+}
+
+#speech2 {
+    left: 60px;
+    top: -425px;
+}
+
+#speech2 p {
+    position: relative;
+    width: 220px;
+    top: -290px;
+    left: 45px;
+    text-align:center
+}
+
+#speech-sponsor {
+    left: 645px;
+    top: -1200px;
+}
+
+#speech-sponsor p {
+    position: relative;
+    width: 140px;
+    top: -213px;
+    left: 34px;
+    text-align:center
+}
+
+#speech3 {
+    left: 600px;
+    top: -425px;
+}
+
+#speech3 p {
+    position: relative;
+    width: 1220px;
+    top: -690px;
+    left: 600px;
+    text-align:center
+
+}
+
+#sponsors {
+    position: relative;
+    top: -680px;
+    left: -50px;
+	width: 550px;
+}
+
+#sponsors img {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#about {
+    padding: 150px 0 750px 0;
+    height: 130px;
+}
+
+#about_secondary {
+    left: 1050px;
+    top: -762px;
+}
+
+#about_secondary p {
+    width: 200px;
+    left: 32px;
+    text-align:center
+}
+
+
+#home {
+    padding: 80px 0 590px 0;
+    height: 500px;
+}
+
+#details {
+    padding: 143px 0 485px 0;
+    height: 535px;
+}
+
+#register {
+    height: 265px;
+    padding: 143px 0 760px 0;
+}
+
+#sponsorship {
+    padding: 143px 0 700px 0;
+
+}
+
+#register-form {
+    color: #FFF;
+}
+
+#nameInput {
+    margin-top: 0;
+}
+
+#firstNameError {
+    padding-top: 5px;
+}
+
+#response {
+    color: #ee1d47;
+}
+
+#age {
+    display: inline-block;
+    width: 260px;
+    text-shadow: 1px 1px 2px #000,
+                 -1px 1px 2px #000;
+}
+
+#ageError {
+    width: 120px;
+    margin-top: 5px;
+}
+
+#recaptcha_widget_div input{
+    background: #FFF;
+    height: 20px
+}
+
+#recaptcha_widget_div {
+    margin-top: 5px;
+}
+
+#contact {
+    padding-bottom: 370px;
+    height: 400px;
+}
+
+#email-form {
+    display:block;
+    width: 500px;
+}
+
+
+input, textarea {
+    margin-top: 10px;
+    padding-left: 5px;
+    display: inline;
+    font-size: 12pt;
+    color: #FFF;
+    border: 1px solid #5c0f0f;
+
+    background: #000;
+}
+
+input[type="radio"] {
+	border: none;
+    margin-top: 5px;
+    width: 25px;
+}
+
+input {
+    height: 25px;
+    width: 250px;
+}
+
+#donate {
+}
+
+#donate input {
+    height: auto;
+    width: auto;
+    background: none;
+    border: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    overflow: auto;
+    color: #5c0f0f
+}
+
+#comment {
+    width: 300px;
+    height: 100px;
+}
+
+.error {
+    vertical-align: top;
+    color: #ee1d47;
+    padding-top: 15px;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+.button {
+    height: 30px;
+    width: 75px;
+    background: #ee1d47;
+    border: 1px solid #FFF;
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+}
+
+.loading {
+    margin-top: 10px;
+}
+
+#response {
+    display: block;
+    margin-top: 10px;
+    color: #ee1d47;
+}
+
+iframe {
+    display:none !important;
+}
+
+@media (min-width: 950px) and (max-width: 1280px) {
+    .star {
+        z-index: -2;
+        left: 610px;
+    }
+    
+    .clothing {
+        z-index: -1;
+    }
+    
+    #twitter {
+        position: absolute;
+        left: 86%;
+    }
+    
+    #nav-list {
+        margin: 22px 0 0 290px;
+    }
+}
+
+@media (max-width: 950px) {
+    .star {
+        left: 0;
+        width: 130px;
+    }
+    
+    .star img {
+        width: 130px;
+    }
+    
+    .speech {
+        display: none;
+    }
+    
+    #sponsors {
+        top: 30px;
+        left: 0;   
+    }
+    
+    #header {
+        height: 40px;
+    }
+    
+    #logo img {
+        width: 175px;
+    }
+    
+    #nav-list {
+        position: relative;
+        z-index: 1000;
+        margin: 12px 0 0 110px;
+        padding: 5px 0;
+    }
+    
+    #twitter {
+        display: none;
+        top: -10px;
+        left: 25px;
+    }
+    
+    #twitter img {
+        height: 45px;
+    }
+    
+    #messageError {
+        display: block;
+        padding-top: 5px;
+    }
+}
