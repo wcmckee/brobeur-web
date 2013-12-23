@@ -1,6 +1,6 @@
-	a:active { color: #FF0066; }
-	a:visited { color: #3399FF; }
-	a:link { color: #3399FF; }
+	a:active { color: #517cd8; }
+	a:visited { color: #395797; }
+	a:link { color: #243760; }
 	
 a {
     text-decoration:none;
@@ -9,7 +9,7 @@ a {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #d5c887 url('../images/bg.png') repeat-x center top;
+    background: #d5c887 url('imgs/party.png') repeat-x left top;
     color: #5c0f0f;
 
 
@@ -18,21 +18,22 @@ body {
 
 img {
 	border: none;
+	color: #5c0f0f;
 }
 
 #top-bar {
     background: #000;
     position:fixed;
     width: 100%;
-    z-index: 500;
+    z-index: 300;
 }
 
 #header {
     font-weight: bold;
-    background-color: #000;
+    background-color: #cbe1b4;
     display: block;
-    width: 1280px;
-    height: 45px;
+    width: 960px;
+    height: 80px;
     margin: 0 auto;
 }
 
@@ -42,7 +43,7 @@ img {
 }
 
 #nav-list {
-    margin: 0 0 20px 335px;
+    margin: 10px 20px 50px 335px;
     list-style-type:none;
     display: inline-block;
 }
