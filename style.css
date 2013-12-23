@@ -4,6 +4,7 @@
 	
 a {
     text-decoration:none;
+    color: #5c0f0f;
 }
 
 body {
@@ -22,7 +23,7 @@ img {
 }
 
 #top-bar {
-    background: #000;
+    background: #5c0f0f;;
     position:fixed;
     width: 100%;
     z-index: 300;
@@ -38,7 +39,7 @@ img {
 }
 
 #logo {
-    margin: 5px 0 0 20px;
+    margin: 30px 0 0 150px;
     position: absolute;
 }
 
@@ -74,7 +75,7 @@ img {
 }
 
 #main-content {
-    width: 1280px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -92,7 +93,8 @@ img {
 
 .content-bubble-title {
     font-weight: bold;
-    font-size: 15pt;
+    font-size: 14pt;
+    color: #FEFCFF
 }
 
 .content-text-highlight {
@@ -100,13 +102,13 @@ img {
     background:#000;
     color: #FFF;
     padding: 2px;
-    font-size: 15pt;
+    font-size: 14pt;
     line-height: 24pt;
     white-space: pre-wrap;
 }
 
 .indent-content-text {
-	margin-left: 335px;
+	margin-left: 200px;
 	color: #FEFCFF;
    text-align:center;
 
@@ -118,7 +120,7 @@ img {
 }
 
 .content-text{
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 2px;
     font-size: 13pt;
 }
@@ -225,7 +227,7 @@ img {
 #about_secondary p {
     width: 200px;
     left: 32px;
-    text-align:center
+    text-align:left
 }
 
 
@@ -332,8 +334,8 @@ input {
 }
 
 textarea {
-    width: 400px;
-    height: 150px;
+    width: 960px;
+    height: 500px;
     overflow: auto;
     color: #5c0f0f
 }
