@@ -8,8 +8,8 @@ a {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+    font-family: serif;
+    margin: 100;
     background: #d5c887 url('imgs/party.png') repeat-x left top;
     color: #5c0f0f;
 
@@ -89,6 +89,7 @@ img {
     font-weight: bold;
     font-size: 30pt;
     margin-bottom: 10px;
+    color: #000000;
 }
 
 .content-bubble-title {
@@ -99,12 +100,13 @@ img {
 
 .content-text-highlight {
     display: inline;
-    background:#000;
-    color: #FFF;
+    background:#FEFCFF;
+    color: #705f1b;
     padding: 2px;
-    font-size: 14pt;
+    font-size: 10pt;
     line-height: 24pt;
     white-space: pre-wrap;
+    font: 'cs.tff';
 }
 
 .indent-content-text {
