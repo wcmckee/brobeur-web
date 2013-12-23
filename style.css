@@ -23,10 +23,11 @@ img {
 }
 
 #top-bar {
-    background: #5c0f0f;;
+    background: #5c0f0f;
     position:fixed;
-    width: 100%;
+    width: 50%;
     z-index: 300;
+    margin-top: 50px
 }
 
 #header {
@@ -36,6 +37,7 @@ img {
     width: 960px;
     height: 80px;
     margin: 0 auto;
+    margin-top: 50px
 }
 
 #logo {
