@@ -12,6 +12,7 @@ body {
     margin: 100;
     background: #d5c887 url('imgs/party.png') repeat-x left top;
     color: #5c0f0f;
+    
 
 
 
@@ -43,12 +44,15 @@ img {
 #logo {
     margin: 30px 0 0 150px;
     position: absolute;
+    margin-top: -50px;
+
 }
 
 #nav-list {
     margin: 10px 20px 50px 335px;
     list-style-type:none;
     display: inline-block;
+    margin-top: 20px
 }
 
 #nav-list a {
@@ -73,29 +77,34 @@ img {
     display: inline;
     position: relative; 
     left: 156px;
-    top: 17px
+    top: 17px;
 }
 
 #main-content {
     width: 960px;
-    margin: 0 auto;
+    margin: 50px auto;
+    margin-top: 20px;
+
+    
 }
 
 .content {
     margin-left: 135px;
     width: 450px;
     padding: 143px 0 500px 0;
+    margin-top: 5px;
 }
 
 .content-title {
     font-weight: bold;
     font-size: 30pt;
     margin-bottom: 10px;
-    color: #000000;
+    color: #705f1b;
+    margin-top: 50	px
+    margin-top: 5px;
 }
 
 .content-bubble-title {
-    font-weight: bold;
     font-size: 14pt;
     color: #FEFCFF
 }
@@ -112,7 +121,7 @@ img {
 }
 
 .indent-content-text {
-	margin-left: 200px;
+	margin-left: 400px;
 	color: #FEFCFF;
    text-align:center;
 
@@ -221,6 +230,7 @@ img {
 #about {
     padding: 150px 0 750px 0;
     height: 130px;
+    margin-top: 5px;
 }
 
 #about_secondary {
@@ -236,22 +246,22 @@ img {
 
 
 #home {
-    padding: 80px 0 590px 0;
+    padding: 80px 0 600px 0;
     height: 500px;
 }
 
 #details {
-    padding: 143px 0 485px 0;
+    padding: 143px 0 600px 0;
     height: 535px;
 }
 
 #register {
     height: 265px;
-    padding: 143px 0 760px 0;
+    padding: 143px 0 600px 0;
 }
 
 #sponsorship {
-    padding: 143px 0 700px 0;
+    padding: 143px 0 600px 0;
 
 }
 
